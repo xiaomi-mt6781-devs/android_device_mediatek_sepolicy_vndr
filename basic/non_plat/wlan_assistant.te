@@ -36,4 +36,7 @@ allow wlan_assistant wmtWifi_device:chr_file rw_file_perms;
 
 allow wlan_assistant mnt_vendor_file:dir search;
 
+allow wlan_assistant sysfs_dt_firmware_android:dir search;
+allow wlan_assistant sysfs_dt_firmware_android:file r_file_perms;
+
 set_prop(wlan_assistant, vendor_mtk_nvram_ready_prop)
