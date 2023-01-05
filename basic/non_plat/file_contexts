@@ -680,6 +680,7 @@
 /(vendor|system/vendor)/bin/ccci_mdinit      u:object_r:ccci_mdinit_exec:s0
 /(vendor|system/vendor)/bin/factory          u:object_r:factory_exec:s0
 /(vendor|system/vendor)/bin/conninfra_loader u:object_r:conninfra_loader_exec:s0
+/(vendor|system/vendor)/bin/xcap u:object_r:xcap_exec:s0
 
 /(vendor|system/vendor)/bin/mnld u:object_r:mnld_exec:s0
 /(vendor|system/vendor)/bin/gbe  u:object_r:gbe_native_exec:s0
