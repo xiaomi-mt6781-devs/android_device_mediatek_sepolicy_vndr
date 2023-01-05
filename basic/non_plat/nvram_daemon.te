@@ -64,6 +64,7 @@ allow nvram_daemon rootfs:file r_file_perms;
 # Purpose: Allow nvram_daemon to get vendor_mtk_tel_switch_prop
 get_prop(nvram_daemon, vendor_mtk_tel_switch_prop)
 get_prop(nvram_daemon, vendor_mtk_rat_config_prop)
+set_prop(nvram_daemon, vendor_mtk_radio_prop)
 
 # Date : WK18.21
 # Operation: P migration
