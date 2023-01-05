@@ -43,4 +43,7 @@ allow wlan_assistant sysfs_dt_firmware_android:file r_file_perms;
 # Allow wlan_assistant to read sysfs_boot_mode
 allow wlan_assistant sysfs_boot_mode:file r_file_perms;
 
+# Allow wlan_assistant to search gsi_metadata_file dirs
+allow wlan_assistant gsi_metadata_file:dir search;
+
 set_prop(wlan_assistant, vendor_mtk_nvram_ready_prop)
