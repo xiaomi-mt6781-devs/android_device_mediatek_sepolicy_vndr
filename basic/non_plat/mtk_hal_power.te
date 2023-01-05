@@ -306,6 +306,9 @@ get_prop(mtk_hal_power, lmkd_config_prop)
 # allow powerhal to access /sys/kernel/thermal/sports_mode
 allow mtk_hal_power sysfs_thermal_sram:file w_file_perms;
 
+# allow powerhal to write sysfs_therm;
+allow mtk_hal_power sysfs_therm:file rw_file_perms;
+
 # Date: 2022/01/17
 # allow powerhal to access /sys/kernel/helio-dvfsrc/dvfsrc_qos_mode
 allow mtk_hal_power sysfs_dvfsrc_dbg:dir r_dir_perms;
